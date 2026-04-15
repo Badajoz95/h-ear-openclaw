@@ -1,9 +1,9 @@
 {
   "name": "h-ear-openclaw",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "OpenClaw skill for H-ear World audio classification — install via: npm install @h-ear/openclaw",
   "dependencies": {
-    "@h-ear/openclaw": "^1.0.0"
+    "@h-ear/openclaw": "^1.0.3"
   },
   "license": "MIT"
 }
