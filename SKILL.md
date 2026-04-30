@@ -30,6 +30,7 @@ H-ear.world transforms sound into an actionable, meaningful translation layer of
 | `h-ear job waveform <jobId>` | Get pre-computed peaks.js waveform + audio URL. |
 | `h-ear job report <jobId>` | Get a 7-day SAS URL to download the Excel analysis report. |
 | `h-ear classify <fileOrUrl>` | Classify audio (URL or local file). Polls until complete. |
+| `h-ear classify batch` | Submit a batch of audio URLs for asynchronous classification (callback delivery). |
 | `h-ear webhook list` | List enterprise webhook registrations. |
 | `h-ear webhook get <webhookId>` | Show one webhook (URL, events, filter config, delivery stats). |
 | `h-ear webhook create <url>` | Create an enterprise webhook (returns signing secret ONCE). |
